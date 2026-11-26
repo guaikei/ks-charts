@@ -6,6 +6,11 @@ name: ks-charts
 description: "快手公开数据可视化报表（只读）：关键词搜视频、博主作品与粉丝数据、视频评论，输出 JSON，不登录不发布。触发词：快手、Kuaishou、kwai、快手搜索、快手评论、快手博主。用户要查快手视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.3
+display_name: "快手可视化报表｜视频图表·互动趋势图·评论分布图·图表化交付"
+display_name_en: "Kuaishou Charts"
+description_zh: "快手公开数据可视化报表技能（只读）：关键词搜视频、博主作品与粉丝互动数据、单条作品详情、视频评论，把抓取结果整理成图表化报表与趋势对比数据——互动趋势图、评论分布图、点赞/评论/分享对比，可直接导入 Excel / BI 出周报与竞品对比表。支持排序（综合/最多点赞/最新发布）、时间与时长筛选；出参覆盖作者、点赞/评论/分享、标签、链接、音乐、话题，结构化 JSON 输出。包月搜索 30 条、作品 50 条、评论 60 条，按量单次最多 10000 条。零第三方依赖（Node.js 16.14+），stdout 纯 JSON、日志走 stderr，支持 --save 落盘。"
+description_en: "Kuaishou public-data visualization and reporting skill (read-only): keyword video search, creator post lists with follower and engagement stats, single post detail, and video comments. Turns raw results into chart-ready reports and trend comparisons - engagement trend charts, comment distribution charts, likes / comments / shares breakdowns - that import straight into Excel or BI for weekly reports and competitor comparison tables. Sorting (relevance / most liked / newest), plus time-window and duration filters. Output covers author, likes, comments, shares, tags, links, music and topics as structured JSON. Monthly plan: up to 30 searches, 50 post pulls and 60 comment pulls; pay-as-you-go up to 10,000 records per call. Zero third-party dependencies (Node.js 16.14+), pure JSON on stdout, logs on stderr, optional --save for local analysis. Requires GUAIKEI_API_TOKEN."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "📷"
